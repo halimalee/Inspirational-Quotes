@@ -1,0 +1,27 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+
+body {
+    margin: 0;
+    line-height: 1.5;
+    background: linear-gradient(rgba(47, 23, 15, .65), rgba(47, 23, 15, .65))
+    ,url(../src/assets/inspire.jpeg)center/cover fixed no-repeat;
+    overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p{
+    text-align: center;
+}
+
+#mainNav {
+    background-color: black;
+    height: 80px;
+  }
+
+
